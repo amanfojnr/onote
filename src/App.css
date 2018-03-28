@@ -1,0 +1,86 @@
+.app-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.notebook-container {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+}
+
+.menubar {
+  background: #2c3e50;
+  display: block;
+  height: 100%;
+  width: 60px;
+  padding-top: 200px;
+}
+
+.menubar ul {
+  text-align: center;
+  list-style-type: none;
+  
+}
+
+.notelist-container {
+  display: flex;
+  flex-flow: column;
+
+}
+
+.noteitem {
+  background: #fbfbfb;
+  box-shadow: 3px 3px 10px #e6e6e6;
+  margin: 10px 10px;
+  padding: 12px 18px;
+}
+
+.noteitem ul {
+  display: flex;
+  list-style-type: none;
+}
+
+
+
+.note-editor-container {
+  display: flex;
+}
+
+.note-editor {
+  padding: 10px;
+}
+
+.note-editor textarea {
+  width:  400px;
+  height: 500px;
+  padding: 12px 20px;
+  border: none;
+  resize: none;
+  margin-bottom: 10px;
+  background: #fbfbfb;
+  box-shadow: 3px 3px 10px #e6e6e6;
+  font-size: 1.2em;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.note-editor input[type=submit] {
+  background: #2c3e50;
+  color: #fbfbfb;
+  font-size: 1.2em;
+  border: none;
+  padding: 12px 18px;
+}
+
+.note-preview {
+  display: block;
+  width: 400px;
+  height: 500px;
+  padding: 12px 20px;
+  font-size: 1.2em;
+}
+
+
+/*
+1abc9c
+*/
