@@ -6,7 +6,7 @@ class NoteItem extends Component {
         return (
             <div className="noteitem">
              <ul>
-                 <li><b>{this.props.note.slice(0, 35)} ...</b></li>
+                 <li><b>{this.props.note}</b></li>
              </ul>
             </div>
         )

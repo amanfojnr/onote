@@ -53,17 +53,15 @@ class NoteEditor extends Component {
                     value={this.state.note}
                     name="body" 
                     onChange={this.handleChange}
+                    rows="8"
+                    cols="20"
+                    maxLength="200"
+                    wrap="hard"
                     />
                     <br />
                     <input type="submit" value="save" />
                 </form>
                </div>
-
-               <div className="note-preview">
-                <NoteDisplay
-                prewiewNote={this.state.note}/>
-               </div>
-             
             </div>
         )
     }

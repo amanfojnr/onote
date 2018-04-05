@@ -34,6 +34,7 @@
   box-shadow: 3px 3px 10px #e6e6e6;
   margin: 10px 10px;
   padding: 12px 18px;
+  width: 300px;
 }
 
 .noteitem ul {
@@ -52,8 +53,6 @@
 }
 
 .note-editor textarea {
-  width:  400px;
-  height: 500px;
   padding: 12px 20px;
   border: none;
   resize: none;
